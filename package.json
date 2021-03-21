@@ -1,0 +1,38 @@
+{
+  "name": "v-qr-code",
+  "version": "0.1.0",
+  "description": "The qrcode based on Vite 2",
+  "files": [
+    "dist/v-qr-code.es.js",
+    "dist/v-qr-code.umd.js"
+  ],
+  "main": "dist/v-qr-code.umd.js",
+  "module": "dist/v-qr-code.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v-qr-code.es.js",
+      "require": "./dist/v-qr-code.umd.js"
+    }
+  },
+  "keywords": [
+    "vite",
+    "qrcode",
+    "vite-qrcode",
+    "vite2",
+    "vite2-qrcode"
+  ],
+  "author": "Niko Ni",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluepower/vite-qr-code.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.1.2"
+  }
+}
