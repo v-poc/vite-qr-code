@@ -1,6 +1,6 @@
 {
-  "name": "v-qr-code",
-  "version": "0.1.0",
+  "name": "v-qr-code-next",
+  "version": "0.1.1",
   "description": "The qrcode based on Vite 2",
   "files": [
     "dist/v-qr-code.es.js",
