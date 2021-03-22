@@ -1,8 +1,11 @@
 /*
  * Inspired by QRCodeGenerator | MIT License (https://github.com/kazuhikoarase/qrcode-generator)
  */
-
-import { PAD0, PAD1, ERROR_CORRECTION_LEVEL } from '../constants/index'
+import {
+  PAD0,
+  PAD1,
+  ERROR_CORRECTION_LEVEL
+} from '../constants/index'
 import {
   QRUtil,
   QRRSBlock,
@@ -65,10 +68,14 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
 
   const setupPositionProbePattern = function (row, col) {
     for (let r = -1; r <= 7; r += 1) {
-      if (row + r <= -1 || _moduleCount <= row + r) continue
+      if (row + r <= -1 || _moduleCount <= row + r) {
+        continue
+      }
 
       for (let c = -1; c <= 7; c += 1) {
-        if (col + c <= -1 || _moduleCount <= col + c) continue
+        if (col + c <= -1 || _moduleCount <= col + c) {
+          continue
+        }
 
         if ((0 <= r && r <= 6 && (c == 0 || c == 6))
           || (0 <= c && c <= 6 && (r == 0 || r == 6))
@@ -300,7 +307,7 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
       data.write(buffer)
     }
 
-    // calc num max data.
+    // calc num max data
     let totalDataCount = 0
     for (let i = 0; i < rsBlocks.length; i += 1) {
       totalDataCount += rsBlocks[i].dataCount
@@ -447,9 +454,9 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
   res.createSvgTag = function (cellSize, margin, alt, title) {
     let opts = {}
     if (typeof arguments[0] == 'object') {
-      // Called by options.
+      // Called by options
       opts = arguments[0]
-      // overwrite cellSize and margin.
+      // overwrite cellSize and margin
       cellSize = opts.cellSize
       margin = opts.margin
       alt = opts.alt
@@ -744,7 +751,7 @@ qrcodeModule.stringToBytes = qrcodeModule.stringToBytesFuncs['default']
  * @param numChars
  */
  qrcodeModule.createStringToBytes = function (unicodeData, numChars) {
-  // create conversion map.
+  // create conversion map
   const unicodeMap = function () {
     const bin = base64DecodeInputStream(unicodeData)
     const read = function () {

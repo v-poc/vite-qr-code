@@ -623,5 +623,5 @@ export const createDataURL = function (width, height, getPixel) {
   }
   base64.flush()
 
-  return 'data:image/gif;base64,' + base64
+  return `data:image/gif;base64,${base64}`
 }

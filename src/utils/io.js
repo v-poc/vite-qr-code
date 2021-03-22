@@ -109,9 +109,8 @@ export const base64EncodeOutputStream = function () {
       _buflen = 0
     }
 
-    if (_length % 3 != 0) {
-      // padding
-      const padlen = 3 - _length % 3
+    if (_length % 3 != 0) {      
+      const padlen = 3 - _length % 3 // padding
       for (let i = 0; i < padlen; i += 1) {
         _base64 += '='
       }

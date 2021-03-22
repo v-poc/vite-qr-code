@@ -7,7 +7,16 @@ qr.addData('https://nikoni.top/vui-vc-next/').make()
 
 document.querySelector('#app').innerHTML = `
 <center>
-  <h5>QR Code - VUI</h5>
+  <h3>QR Code - VUI</h3>
+  <p>Image</p>
   ${qr.createImgTag()}
+  <hr/><p>SVG</p>
+  ${qr.createSvgTag()}
+  <hr/><p>Table</p>
+  ${qr.createTableTag()}
+  <hr/><p>ASCII</p>
+  ${qr.createASCII()}
+  <hr/><p>DataURL</p>
+  ${qr.createDataURL()}
 </center>
 `
