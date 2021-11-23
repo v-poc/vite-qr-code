@@ -17,9 +17,14 @@
   "keywords": [
     "vite",
     "qrcode",
+    "qr-code",
+    "vanilla-qrcode",
+    "vanilla-qr-code",
     "vite-qrcode",
+    "vite-qr-code",
     "vite2",
-    "vite2-qrcode"
+    "vite2-qrcode",
+    "vite2-qr-code"
   ],
   "author": "Niko Ni",
   "license": "MIT",
