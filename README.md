@@ -56,4 +56,4 @@ About vite, please check Configuration Reference - [vite](https://vitejs.dev/con
 
 ## License
 
-<img src="https://nikoni.top/images/niko-mit.png" alt="MIT License" width="396" height="250"/>
+<img src="https://nikoni.top/images/niko-mit-vanilla-js.png" alt="MIT License" width="396" height="250"/>

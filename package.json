@@ -1,10 +1,13 @@
 {
   "name": "v-qr-code-next",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The qrcode based on Vite 2",
   "files": [
     "dist/v-qr-code-next.es.js",
-    "dist/v-qr-code-next.umd.js"
+    "dist/v-qr-code-next.umd.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
   ],
   "main": "dist/v-qr-code-next.umd.js",
   "module": "dist/v-qr-code-next.es.js",
