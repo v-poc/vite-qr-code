@@ -1,10 +1,13 @@
-const path = require('path')
+import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
+import { defineConfig } from 'vite'
 
-export default {
+export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, './src/qrcode/index.js'),
-      name: 'VQrCodeNext'
+      entry: resolve(dirname(fileURLToPath(import.meta.url)), './src/qrcode/index.js'),
+      name: 'VQrCodeNext',
+      fileName: 'v-qr-code-next'
     }
   }
-}
+})

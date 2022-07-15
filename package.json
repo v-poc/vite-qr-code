@@ -1,7 +1,8 @@
 {
   "name": "v-qr-code-next",
-  "version": "0.1.9",
-  "description": "The qrcode based on Vite 2",
+  "version": "0.1.10",
+  "description": "The qr-code based on Vite",
+  "type": "module",
   "files": [
     "dist/v-qr-code-next.es.js",
     "dist/v-qr-code-next.umd.js",
@@ -9,12 +10,12 @@
     "LICENSE",
     "README.md"
   ],
-  "main": "dist/v-qr-code-next.umd.js",
-  "module": "dist/v-qr-code-next.es.js",
+  "main": "dist/v-qr-code-next.umd.cjs",
+  "module": "dist/v-qr-code-next.js",
   "exports": {
     ".": {
-      "import": "./dist/v-qr-code-next.es.js",
-      "require": "./dist/v-qr-code-next.umd.js"
+      "import": "./dist/v-qr-code-next.js",
+      "require": "./dist/v-qr-code-next.umd.cjs"
     }
   },
   "keywords": [
@@ -25,9 +26,9 @@
     "vanilla-qr-code",
     "vite-qrcode",
     "vite-qr-code",
-    "vite2",
-    "vite2-qrcode",
-    "vite2-qr-code"
+    "vite3",
+    "vite3-qrcode",
+    "vite3-qr-code"
   ],
   "author": "Niko Ni",
   "license": "MIT",
@@ -42,6 +43,6 @@
     "start": "vite"
   },
   "devDependencies": {
-    "vite": "2.5.10"
+    "vite": "^3.0.0"
   }
 }
