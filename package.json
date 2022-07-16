@@ -34,8 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluepower/vite-qr-code.git"
+    "url": "git+https://github.com/v-poc/vite-qr-code.git"
   },
+  "bugs": {
+    "url": "https://github.com/v-poc/vite-qr-code/issues"
+  },
+  "homepage": "https://github.com/v-poc/vite-qr-code/blob/dev/README.md",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
