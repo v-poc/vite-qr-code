@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/v-poc/vite-qr-code/issues"
   },
-  "homepage": "https://github.com/v-poc/vite-qr-code/blob/dev/README.md",
+  "homepage": "https://github.com/v-poc/vite-qr-code/blob/main/README.md",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
