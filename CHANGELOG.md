@@ -1,6 +1,10 @@
+# 0.1.12 (2022-12-09)
+
+Updated to switch to Vite 4.
+
 # 0.1.10 (2022-07-15)
 
-Switch to Vite 3.
+Updated to switch to Vite 3.
 
 # 0.1.9 (2022-01-13)
 
