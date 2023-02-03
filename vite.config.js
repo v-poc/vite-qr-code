@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: resolve(dirname(fileURLToPath(import.meta.url)), './src/qrcode/index.js'),
       name: 'VQrCodeNext',
-      fileName: 'v-qr-code-next'
+      fileName: (format) => `v-qr-code-next.${format}.js`,
     }
   }
 })
