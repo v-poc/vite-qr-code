@@ -1,3 +1,7 @@
+# 0.1.13 (2023-02-03)
+
+Updated deps.
+
 # 0.1.12 (2022-12-09)
 
 Updated to switch to Vite 4.
