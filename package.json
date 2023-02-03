@@ -1,6 +1,6 @@
 {
   "name": "v-qr-code-next",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "The qr-code based on Vite",
   "type": "module",
   "files": [
@@ -26,9 +26,9 @@
     "vanilla-qr-code",
     "vite-qrcode",
     "vite-qr-code",
-    "vite3",
-    "vite3-qrcode",
-    "vite3-qr-code"
+    "vite4",
+    "vite4-qrcode",
+    "vite4-qr-code"
   ],
   "author": "Niko Ni",
   "license": "MIT",
@@ -47,6 +47,6 @@
     "start": "vite"
   },
   "devDependencies": {
-    "vite": "^4.0.4"
+    "vite": "^4.1.1"
   }
 }
