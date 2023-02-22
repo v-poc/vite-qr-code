@@ -1,4 +1,4 @@
-import qrcode from './qrcode/index'
+import qrcode from 'v-qr-code-next'
 
 const typeNumber = 8
 const errorCorrectionLevel = 'L'
