@@ -1,3 +1,7 @@
+# 0.1.15 (2023-02-21)
+
+Updated deps.
+
 # 0.1.14 (2023-02-03)
 
 Updated module exports.
