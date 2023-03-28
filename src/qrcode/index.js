@@ -412,7 +412,7 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
     makeImpl(false, getBestMaskPattern())
   }
 
-  res.createTableTag = function (cellSize, margin) {
+  res.createTableTag = function (cellSize, margin, color) {
     cellSize = cellSize || 2
     margin = (typeof margin == 'undefined') ? cellSize * 4 : margin
 
@@ -437,7 +437,7 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
         qrHtml += ' width: ' + cellSize + 'px;'
         qrHtml += ' height: ' + cellSize + 'px;'
         qrHtml += ' background-color: '
-        qrHtml += res.isDark(r, c) ? '#000000' : '#ffffff'
+        qrHtml += res.isDark(r, c) ? (color || '#000000') : '#ffffff'
         qrHtml += ';'
         qrHtml += '"/>'
       }
@@ -451,7 +451,7 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
     return qrHtml
   }
 
-  res.createSvgTag = function (cellSize, margin, alt, title) {
+  res.createSvgTag = function (cellSize, margin, alt, title, color) {
     let opts = {}
     if (typeof arguments[0] == 'object') {
       // Called by options
@@ -506,7 +506,7 @@ const qrcodeModule = function (typeNumber, errorCorrectionLevel) {
       }
     }
 
-    qrSvg += '" stroke="transparent" fill="black"/>'
+    qrSvg += `" stroke="transparent" fill="${color || 'black'}"/>`
     qrSvg += '</svg>'
 
     return qrSvg

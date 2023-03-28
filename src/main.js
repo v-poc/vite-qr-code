@@ -11,9 +11,9 @@ document.querySelector('#app').innerHTML = `
   <p>Image</p>
   ${qr.createImgTag()}
   <hr/><p>SVG</p>
-  ${qr.createSvgTag()}
+  ${qr.createSvgTag(0, 0, 'svg', '', '#36C')}
   <hr/><p>Table</p>
-  ${qr.createTableTag()}
+  ${qr.createTableTag(0, 0, 'rgba(0, 0, 0, .5)')}
   <hr/><p>ASCII</p>
   ${qr.createASCII()}
   <hr/><p>DataURL</p>

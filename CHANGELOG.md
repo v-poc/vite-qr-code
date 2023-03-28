@@ -1,3 +1,7 @@
+# 0.2.0 (2023-03-27)
+
+Updated to customize color.
+
 # 0.1.15 (2023-02-21)
 
 Updated deps.
