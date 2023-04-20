@@ -1,6 +1,6 @@
 {
   "name": "v-qr-code-next",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The qr-code based on Vite",
   "type": "module",
   "files": [
@@ -47,6 +47,6 @@
     "start": "vite"
   },
   "devDependencies": {
-    "vite": "^4.2.1"
+    "vite": "^4.3.0"
   }
 }
