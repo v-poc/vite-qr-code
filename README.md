@@ -1,5 +1,7 @@
 # vite-qr-code
 
+[![npm](https://img.shields.io/npm/v/v-qr-code-next)](https://www.npmjs.com/package/v-qr-code-next)
+
 ## INTRODUCTION
 
 The qrcode package is based on Vite 4. Try [StackBlitz](https://stackblitz.com/github/v-poc/vite-qr-code?file=package.json) or try [SFC playground](https://sfc.vuejs.org/#eNp9UU1PAjEQ/StNL4sJ28rBxJCFaPRiQjx53MuyOywF+sF0dtUQ/rtTCCpgvLXzPqbvdScfQ1B9B3IsCwIbNhXBtHRCFI3pRZ8vyW4mpTS2LeW00DxktNC/qHyNNZpAIgJ1gSfGBo8ktlj7BsQCvRVZn28xT/fcwQdlSVZ7F0nQZ4DXzs4BxUTcDwUgenzyiFCT8W4GPWwYyWasOSq2iXk0H/yo/1belG6Lqmqa54qqQbYkCnGstTNr74wiHzR25vAknd0oW61hwJLTJk59WKVqBA77Ytu3qk2EQh8jc1g55HJS3txWQa2id1zlLjWYWktALOVYHCZpdl5Egkp5elbnwrpVtbf6nPVwq0ZqdMftR7qAFEReWsrht38H56ZxUacPXkXlsdV8Utg5MhZYavM5+vcIeOWhedgD5giuAQT8z/OCeuWbbPel28v9F1x42Wc=).
