@@ -47,6 +47,6 @@
     "start": "vite"
   },
   "devDependencies": {
-    "vite": "^4.3.3"
+    "vite": "latest"
   }
 }
