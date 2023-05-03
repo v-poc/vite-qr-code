@@ -1,4 +1,4 @@
-# 0.2.3 (2023-04-27)
+# 0.2.4 (2023-05-02)
 
 Updated deps.
 
@@ -34,4 +34,4 @@ Updated deps.
 
 Initial commit.
 
-> This is a lightweight demo to use `template-vanilla` of [@vite/create-app](https://github.com/vitejs/vite/tree/main/packages/create-app).
+> This is a lightweight demo to use `template-vanilla` of [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite).
