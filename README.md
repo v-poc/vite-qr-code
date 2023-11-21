@@ -4,7 +4,7 @@
 
 ## INTRODUCTION
 
-The qrcode package is based on Vite 4. Try [StackBlitz](https://stackblitz.com/github/v-poc/vite-qr-code?file=package.json) or try [SFC playground](https://sfc.vuejs.org/#eNp9UU1PAjEQ/StNL4sJ28rBxJCFaPRiQjx53MuyOywF+sF0dtUQ/rtTCCpgvLXzPqbvdScfQ1B9B3IsCwIbNhXBtHRCFI3pRZ8vyW4mpTS2LeW00DxktNC/qHyNNZpAIgJ1gSfGBo8ktlj7BsQCvRVZn28xT/fcwQdlSVZ7F0nQZ4DXzs4BxUTcDwUgenzyiFCT8W4GPWwYyWasOSq2iXk0H/yo/1belG6Lqmqa54qqQbYkCnGstTNr74wiHzR25vAknd0oW61hwJLTJk59WKVqBA77Ytu3qk2EQh8jc1g55HJS3txWQa2id1zlLjWYWktALOVYHCZpdl5Egkp5elbnwrpVtbf6nPVwq0ZqdMftR7qAFEReWsrht38H56ZxUacPXkXlsdV8Utg5MhZYavM5+vcIeOWhedgD5giuAQT8z/OCeuWbbPel28v9F1x42Wc=).
+The qrcode package is based on Vite 5. Try [StackBlitz](https://stackblitz.com/github/v-poc/vite-qr-code?file=package.json) or try [SFC playground](https://play.vuejs.org/#eNp9Uctu2zAQ/BVCFzuARRUNUBSGErRNc0gRpEWboy6KtJFpiw8vl4qDwP/eJRUrcZD2Ru7MLGeGT9lX5+QQIFtmJYF2fU1wXhkhylYNYshXpPuzKlO6q7LzsuAho2XxispX36ByJDxQcDxR2lkkscXGtiDu0WoxG/It5vGeG9jRLMoaazwJenRwE/QdoDgTnxcCEC1eWERoSFlzDQP0jMyuWTMqtpE5Lp+/qN9XnlRmi7Ju2+811fPZisj5ZVEYtbFGSbKuwKCSpWJ2InW9gTlLDi9x6vSUbBA47JXubusuEspijMxhswWXE/PmunZy7a3hKp9ig7G1CPgqW4o0ibPjIiJUZQdbwbhNJxuri2PWlw/yo/zE5Xt6g0jw/GaVLab1AY538jc9xg9ee2mxK/gkMRhSGlir8zu0Dx4wLYk79pXZcyTy3MC96t4EYmtO9YA/XWz4OFjd9/bhR5oRBpgcNStoNu/M1343Ov2FwA4G9j1hVGMHz+Vc/rlJRU2gtm3on1P+A/wN3vYhehxp34Jp2fYrXnJ7lf5Hme7WX+4IjD+EikZTG4mfWr34T/QXu6fydGpx/xc0hiOM).
 
 > This is a lightweight demo to use template-vanilla of [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite).
 
