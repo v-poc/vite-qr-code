@@ -4,7 +4,7 @@
 
 ## INTRODUCTION
 
-The qrcode package is based on Vite 5. Try [StackBlitz](https://stackblitz.com/github/v-poc/vite-qr-code?file=package.json) or try [SFC playground](https://play.vuejs.org/#eNp9Uctu2zAQ/BVCFzuARRUNUBSGErRNc0gRpEWboy6KtJFpiw8vl4qDwP/eJRUrcZD2Ru7MLGeGT9lX5+QQIFtmJYF2fU1wXhkhylYNYshXpPuzKlO6q7LzsuAho2XxispX36ByJDxQcDxR2lkkscXGtiDu0WoxG/It5vGeG9jRLMoaazwJenRwE/QdoDgTnxcCEC1eWERoSFlzDQP0jMyuWTMqtpE5Lp+/qN9XnlRmi7Ju2+811fPZisj5ZVEYtbFGSbKuwKCSpWJ2InW9gTlLDi9x6vSUbBA47JXubusuEspijMxhswWXE/PmunZy7a3hKp9ig7G1CPgqW4o0ibPjIiJUZQdbwbhNJxuri2PWlw/yo/zE5Xt6g0jw/GaVLab1AY538jc9xg9ee2mxK/gkMRhSGlir8zu0Dx4wLYk79pXZcyTy3MC96t4EYmtO9YA/XWz4OFjd9/bhR5oRBpgcNStoNu/M1343Ov2FwA4G9j1hVGMHz+Vc/rlJRU2gtm3on1P+A/wN3vYhehxp34Jp2fYrXnJ7lf5Hme7WX+4IjD+EikZTG4mfWr34T/QXu6fydGpx/xc0hiOM).
+The qrcode package is based on Vite. Try [StackBlitz](https://stackblitz.com/github/v-poc/vite-qr-code?file=package.json) or try [SFC playground](https://play.vuejs.org/#eNp9Uctu2zAQ/BVCFzuARRUNUBSGErRNc0gRpEWboy6KtJFpiw8vl4qDwP/eJRUrcZD2Ru7MLGeGT9lX5+QQIFtmJYF2fU1wXhkhylYNYshXpPuzKlO6q7LzsuAho2XxispX36ByJDxQcDxR2lkkscXGtiDu0WoxG/It5vGeG9jRLMoaazwJenRwE/QdoDgTnxcCEC1eWERoSFlzDQP0jMyuWTMqtpE5Lp+/qN9XnlRmi7Ju2+811fPZisj5ZVEYtbFGSbKuwKCSpWJ2InW9gTlLDi9x6vSUbBA47JXubusuEspijMxhswWXE/PmunZy7a3hKp9ig7G1CPgqW4o0ibPjIiJUZQdbwbhNJxuri2PWlw/yo/zE5Xt6g0jw/GaVLab1AY538jc9xg9ee2mxK/gkMRhSGlir8zu0Dx4wLYk79pXZcyTy3MC96t4EYmtO9YA/XWz4OFjd9/bhR5oRBpgcNStoNu/M1343Ov2FwA4G9j1hVGMHz+Vc/rlJRU2gtm3on1P+A/wN3vYhehxp34Jp2fYrXnJ7lf5Hme7WX+4IjD+EikZTG4mfWr34T/QXu6fydGpx/xc0hiOM).
 
 > This is a lightweight demo to use template-vanilla of [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite).
 
