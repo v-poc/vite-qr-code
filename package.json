@@ -26,9 +26,8 @@
     "vanilla-qr-code",
     "vite-qrcode",
     "vite-qr-code",
-    "vite5",
-    "vite5-qrcode",
-    "vite5-qr-code"
+    "vite-qrcode",
+    "vite-qr-code"
   ],
   "author": "Niko Ni",
   "license": "MIT",
