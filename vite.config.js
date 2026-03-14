@@ -1,8 +1,9 @@
 import { dirname, resolve } from 'path'
 import { fileURLToPath } from 'url'
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite-plus'
 
 export default defineConfig({
+  lint: {"options":{"typeAware":true,"typeCheck":true}},
   resolve: {
     alias: [{ find: "v-qr-code-next", replacement: "/src/qrcode/index.js" }],
   },

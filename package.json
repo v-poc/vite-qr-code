@@ -1,7 +1,7 @@
 {
   "name": "v-qr-code-next",
-  "version": "0.2.7",
-  "description": "The qr-code based on Vite",
+  "version": "0.2.8",
+  "description": "The qr-code based on Vite-plus",
   "type": "module",
   "files": [
     "dist/v-qr-code-next.es.js",
@@ -40,12 +40,17 @@
   },
   "homepage": "https://github.com/v-poc/vite-qr-code/blob/main/README.md",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "start": "vite"
+    "dev": "vp dev",
+    "build": "vp build",
+    "serve": "vp preview",
+    "start": "vp dev"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vite-plus": "latest"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   }
 }
