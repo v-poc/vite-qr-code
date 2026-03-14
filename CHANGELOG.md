@@ -1,3 +1,7 @@
+# 0.2.8 (2026-03-13)
+
+Updated to switch to [Vite+](https://voidzero.dev/posts/announcing-vite-plus-alpha).
+
 # 0.2.7 (2023-12-04)
 
 Updated deps.
