@@ -1,8 +1,28 @@
 {
   "name": "v-qr-code-next",
   "version": "0.2.8",
-  "description": "The qr-code based on Vite-plus",
-  "type": "module",
+  "description": "The qr-code based on vite-plus",
+  "keywords": [
+    "qr-code",
+    "qrcode",
+    "vanilla-qr-code",
+    "vanilla-qrcode",
+    "vite+",
+    "vite-plus-qr-code",
+    "vite-plus-qrcode",
+    "vite-qr-code",
+    "vite-qrcode"
+  ],
+  "homepage": "https://github.com/v-poc/vite-qr-code/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/v-poc/vite-qr-code/issues"
+  },
+  "license": "MIT",
+  "author": "Niko Ni",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-poc/vite-qr-code.git"
+  },
   "files": [
     "dist/v-qr-code-next.es.js",
     "dist/v-qr-code-next.umd.js",
@@ -10,6 +30,7 @@
     "LICENSE",
     "README.md"
   ],
+  "type": "module",
   "main": "dist/v-qr-code-next.umd.js",
   "module": "dist/v-qr-code-next.es.js",
   "exports": {
@@ -18,27 +39,6 @@
       "require": "./dist/v-qr-code-next.umd.js"
     }
   },
-  "keywords": [
-    "vite",
-    "qrcode",
-    "qr-code",
-    "vanilla-qrcode",
-    "vanilla-qr-code",
-    "vite-qrcode",
-    "vite-qr-code",
-    "vite-qrcode",
-    "vite-qr-code"
-  ],
-  "author": "Niko Ni",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/v-poc/vite-qr-code.git"
-  },
-  "bugs": {
-    "url": "https://github.com/v-poc/vite-qr-code/issues"
-  },
-  "homepage": "https://github.com/v-poc/vite-qr-code/blob/main/README.md",
   "scripts": {
     "dev": "vp dev",
     "build": "vp build",
